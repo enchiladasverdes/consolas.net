@@ -1,7 +1,7 @@
 <?php
 
     $hostname = "localhost";
-    $usuariodb = "root";
+    $usuariodb = "enchi";
     $passworddb = "";
     $dbname = "consol.net";
     $conectar = mysqli_connect($hostname,$usuariodb,$passworddb,$dbname);
