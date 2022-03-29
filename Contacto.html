@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+    <!--EP02_Consolas || Daniel Argumosa Flores-->
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicación Web</title>
+    <meta name="description" content="Consolas, comparativas y opiniones.">
+</head>
+<body>
+   <header> 
+    <link rel="stylesheet" href="contacto.css">
+    <h1>Consol.net</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="Comparativa.html">Comparativas</a></li>
+                <li><a href="Login.html">Inicio de sesión</a></li>
+                <li><a href="Contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="fix"></div>
+        <h4>Contacto</h4>
+   </header>
+   <main>
+        <form name="form" action="Registro.php" method="post">
+            <h2>Nombre:</h2>
+            <input type="text" name="Nombre" placeholder="Introduce tu nombre" required>
+            <h2>Correo</h2>
+            <input type="email" name="Email" placeholder="Introduce tu correo" required>
+            <h2>Región</h2>
+            <select name="Region">
+                <option value="México">México</option>
+                <option value="USA">USA</option>
+                <option value="China">China</option>
+                <option value="Rusia">Rusia</option>
+                <option value="Otro">Otro</option>
+            </select>
+            <h2>Genero</h2>
+            <input type="radio" name="Genero" value="Femenino">Femenino<br> 
+            <input type="radio" name="Genero" value="Masculino">Masculino<br>   
+            <input type="radio" name="Genero" value="Otro">Otro<br>   
+            <h3>Indica el motivo por el cual escogerías una consola por otra.</h3>
+            <input type="checkbox" value="Rendimiento" name="motivo[]" >Rendimiento<br>  
+            <input type="checkbox" value="Estética" name="motivo[]" >Estética<br>    
+            <input type="checkbox" value="Precio" name="motivo[]" >Precio<br>  
+            <input type="checkbox" value="Popularidad" name="motivo[]" >Popularidad<br>
+            <input type="checkbox" value="Mayor red social" name="motivo[]" >Mayor red social<br>
+            <input type="checkbox" value="Portabilidad" name="motivo[]" >Portabilidad<br> 
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+        </form>
+   </main>
+</body>
+</html>

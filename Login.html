@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+    <!--EP02_Consolas || Daniel Argumosa Flores-->
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicación Web</title>
+    <meta name="description" content="Consolas, comparativas y opiniones.">
+</head>
+<body>
+   <header> 
+    <link rel="stylesheet" href="login.css">
+    <h1>Consol.net</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="Comparativa.html">Comparativas</a></li>
+                <li><a href="Login.html">Inicio de sesión</a></li>
+                <li><a href="Contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="fix"></div>
+    </header>
+    <h4>Inicio de sesión</h4>
+   <main>
+       <h3 class="log">Login</h3>
+       <form action="Validar.php" method="post">
+           <h2>Usuario:</h2>
+           <input class="user" type="text" name="usuario" placeholder="Introduzca su usuario" required>
+           <h2>Contraseña:</h2>
+           <input type="password" name="clave" placeholder="Introduzca su contraseña" required>
+           <button type="submit">Entrar</button>
+       </form>
+   </main>
+   <footer>
+
+   </footer>
+</body>
+</html>

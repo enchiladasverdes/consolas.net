@@ -1,0 +1,237 @@
+/* ////////// LOGO ////////// */
+.image {
+    align-content: center;
+    display: block;
+    width: 80%;
+    height: auto;
+    width: 800px;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 20px;
+  }
+  .overlay {
+    position: absolute;
+    top: 20px;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    height: 430px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+    width: 760px;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 20px;
+  }
+  .container:hover .overlay {
+    opacity: 4;
+  }
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+.container {
+    position: relative;
+    width: auto;
+  }
+video{
+    align-items: center;
+    width: auto; border-radius: 8px; 
+}
+/* //////////NAVEGACION ////////// */
+nav ul li a {
+    text-decoration: none;
+    color: inherit;
+    text-align: center;
+}
+nav ul{
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+nav ul li{
+    padding: 15px;
+    margin: 120px;
+    list-style-type: none;
+    float: left;
+    background: black;
+    color: white;
+    text-transform: uppercase;
+    width: 170px;
+    font-size: 20px;
+    text-align: center;
+    transition: all 0.5s;
+}
+nav ul li:first-child{
+    border-radius: 15px 15px 15px 15px;
+}
+nav ul li:nth-child(0n+2){
+    border-radius: 15px 15px 15px 15px;
+}
+nav ul li:nth-child(0n+3){
+    border-radius: 15px 15px 15px 15px;
+}
+nav ul li:nth-child(0n+4){
+    border-radius: 15px 15px 15px 15px;
+}
+nav ul li:last-child{
+    border-radius: 15px 15px 15px 15px;
+}
+nav ul li:hover{
+    background: gray;
+    color: black;
+}
+.fix{
+    clear: both;
+}
+/* ////////// CARUSEL ////////// */
+#carrusel #conteCarrusel .diapositivas img{
+    width: 100%;
+}
+#carrusel #conteCarrusel .diapositivas{
+    width: 800px;
+    height: 800px;
+    float: left;
+
+}
+#conteCarrusel{
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+}
+#mascara{
+    width: 4200px;
+    height: 800px;
+    animation:mueve 30s;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+@keyframes mueve{
+    0%{left: 0px;}
+    20%{left: 0px;}
+    25%{left: -800px;}
+    45%{left: -800px;}
+    50%{left: -1600px;}
+    70%{left: -1600px;}
+    75%{left: -2400px;}
+    95%{left: -2400px;}
+    100%{left: -3200px;}
+
+}
+main{
+    width: 800px;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 20px;
+}
+h2{
+    text-align:center;
+    margin-top: 0%;
+}
+h4{
+    background-color: brown;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    font-style: unset;
+    font-weight:bold;
+    font-family:'Helvetica','Verdana','Monaco',sans-serif;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+#by{
+    color: white; font-weight: 600; text-align: center; background: rgb(0, 0, 0);
+}
+body{
+    background: rgb(200, 200, 200);
+}
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: black;
+    color: white;
+  }
+.titulo{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+#sonylog{
+    width: 100px;
+    float:right;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-right: 10px;
+}
+#microsoftlog{
+    width: 130px;
+    float:left;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 10px;
+}
+.sony{
+    color: white;
+    border-radius: 10px;
+    padding-left: 15px;
+    background-color:black;
+    text-align: left;
+    font-size: 35px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    font-style: unset;
+    font-weight:bold;
+    font-family:'Helvetica','Verdana','Monaco',sans-serif;
+    margin-right: 58%;
+
+}
+.microsoft{
+    color: goldenrod;
+    border-radius: 10px;
+    padding-left: 15px;
+    background-color:white;
+    text-align: left;
+    font-size: 35px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    font-style: unset;
+    font-weight:bold;
+    font-family:'Helvetica','Verdana','Monaco',sans-serif;
+    margin-right: 50%;
+}
+#nintendolog{
+    width: 135px;
+    float:right;
+    margin-left: 5px;
+    border-radius: 10px;
+    margin-top: 65px;
+    margin-bottom: 80px;
+    margin-right: 10px;
+}
+.nintendo{
+    color: white;
+    border-radius: 10px;
+    padding-left: 15px;
+    background-color:red;
+    text-align: left;
+    font-size: 35px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    font-style: unset;
+    font-weight:bold;
+    font-family:'Helvetica','Verdana','Monaco',sans-serif;
+    margin-right: 50%;
+}
